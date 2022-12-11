@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel=stylesheet type="text/css" href="style.css">
+    <title>Days of Christmas</title>
+  </head>
+  <body>
+    <h1>The 12 days of Christmas</h1>
+
+    <div class="container">
+
+      <div class="item sides">
+        <img src="images/12days.jpeg">
+      </div>
+
+      <div class="item middle">
+        <div id="intro">
+          <p>You may have heard the song the 12 days of Christmas and wondered how those presents add up.</p>
+          <br>
+          <p>Use the calculator below to find out how many presents you would have accumulated in total on a given day of Christmas</p>
+        </div>
+
+        <form>
+          <input id="days" name="days" type="text" placeholder="Number of days">
+          <button id="calculate">Calculate</button>
+        </form>
+
+        <div id="results">
+          <p>You will have received <span id="result"> x</span> presents</p>
+          <p>You will have got <span id="today"> x </span> presents today</p>
+        </div>
+      </div>
+
+      <div class="item sides">
+        <img src="images/cece.jpeg">
+      </div>
+
+
+    </div>
+
+    <img id="present" src="images/presents.jpeg" alt="presents">
+
+  </body>
+  <script src="calculations.js"></script>
+</html>
